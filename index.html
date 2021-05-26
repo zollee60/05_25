@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-around">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/mizo.jpg" class="card-img-top" alt="Mizo tejfol">
+            <div class="card-body">
+                <h5 class="card-title">Mizo tejföl (500g)</h5>
+                <p class="card-text">450 Ft</p>
+                <div class="d-flex justify-content-around">
+                    <input class="btn btn-primary" id="minus" type="button" value="-">
+                    <input class="form-control w-25" type="text" id="count">
+                    <input class="btn btn-primary" id="plus" type="button" value="+">
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/coco.jpg" class="card-img-top" alt="Kokain">
+            <div class="card-body">
+                <h5 class="card-title">Kokain (2g)</h5>
+                <p class="card-text">40 000 Ft</p>
+                <div class="d-flex justify-content-around">
+                    <input class="btn btn-primary" id="minus2" type="button" value="-">
+                    <input class="form-control w-25" type="text" id="count2">
+                    <input class="btn btn-primary" id="plus2" type="button" value="+">
+                </div>
+            </div>
+        </div>
+        <div class="results">
+            <input class="btn btn-primary" type="button" id="calc" value="Számol!">
+            <h3 id="vegosszeg"></h3>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
